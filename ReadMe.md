@@ -14,8 +14,12 @@ and connectivity to the internet to fetch required dependencies
 To run the application
 
 1. create a directory
-2. git pull {path}
-3. docker-compose up
+2. git pull https://github.com/shony1989/pega-vote-bank.git
+3. cd pega-vote-bank
+4. docker-compose up
+5. the API is available to serve on URL http://localhost:8080
+
+API documentation is available at http://localhost:8080/swagger-ui.html
 
 Docker file is a multistage build , building the artifact and creating an image
 
